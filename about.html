@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="razorpay-script.js"></script> 
+
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background-color: #a7d8f9;
+        }
+
+        .containeer {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        p{
+            padding: 20px 90px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 550;
+            
+        }
+
+        #donation-section {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #6c6262;
+            border-radius: 30px;
+        }
+
+        #donation-section h2 {
+            color: #f4511e;
+            margin-bottom: 15px;
+        }
+
+        #donation-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        #donation-section .button {
+            background-color: #f4511e;
+            color: #fff;
+            font-size: 20px;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #donation-section .button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="containeer">
+        <h1>About Us</h1>
+        <p>Welcome to Your Charitable Trust, a beacon of hope and compassion dedicated to making a positive impact in the lives of those in need. Founded with a profound commitment to social welfare, our organization strives to bring about meaningful change and contribute to the betterment of society. we believe in the transformative power of collective action and philanthropy.
+            Our mission is to address critical issues affecting our communities, focusing on education, healthcare, poverty alleviation, and environmental sustainability. Through strategic partnerships, community engagement, and unwavering dedication, we aim to create a brighter and more equitable future for all. Every initiative undertaken by is guided by principles of transparency, accountability, and a deep sense of responsibility towards the well-being of the people we serve.</p>
+    </div>
+
+    
+    <div id="donation-section">
+        <h2>Support Our Cause</h2>
+        <p>Help us make a difference in the lives of many. Your contribution matters!</p>
+        
+        <button class="button" style="vertical-align:middle"><span>DONATE NOW </span></button>    
+    </div>
+</body>
+</html>
